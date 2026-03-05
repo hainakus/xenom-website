@@ -26,7 +26,6 @@ function CopyButton({ text }: { text: string }) {
 
 const buildCommands = `git clone https://github.com/hainakus/Xenomorph.git
 cd Xenomorph
-git checkout V3.0.0
 cargo build --release`;
 
 const runCommand = `./target/release/xenomd`;
@@ -76,8 +75,6 @@ export default function BuildSection() {
                 <div className="text-slate-500"># Clone the repository</div>
                 <div>git <span className="text-purple-400">clone</span> https://github.com/hainakus/Xenomorph.git</div>
                 <div className="mt-2">cd Xenomorph</div>
-                <div className="mt-2 text-slate-500"># Checkout V3.0.0</div>
-                <div>git <span className="text-purple-400">checkout</span> <span className="text-emerald-400">V3.0.0</span></div>
                 <div className="mt-2 text-slate-500"># Build release binary</div>
                 <div>cargo <span className="text-cyan-400">build</span> --release</div>
               </div>

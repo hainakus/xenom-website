@@ -104,10 +104,10 @@ export default function RewardSection() {
                       <div className="w-2.5 h-2.5 rounded-full bg-purple-500" />
                       <span className="text-sm text-slate-300">Miner Reward</span>
                     </div>
-                    <span className="text-sm font-bold text-purple-400 font-mono">98%</span>
+                    <span className="text-sm font-bold text-purple-400 font-mono">90%</span>
                   </div>
-                  <div className="h-2 rounded-full bg-white/10 overflow-hidden">
-                    <div className="h-full w-[98%] bg-gradient-to-r from-purple-600 to-purple-400 rounded-full" />
+                  <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden">
+                    <div className="h-full w-[90%] bg-gradient-to-r from-purple-600 to-purple-400 rounded-full" />
                   </div>
                   <p className="text-xs text-slate-500 mt-1.5">First coinbase output — goes directly to mining address</p>
                 </div>
@@ -119,10 +119,10 @@ export default function RewardSection() {
                       <div className="w-2.5 h-2.5 rounded-full bg-cyan-500" />
                       <span className="text-sm text-slate-300">Network Fund</span>
                     </div>
-                    <span className="text-sm font-bold text-cyan-400 font-mono">2%</span>
+                    <span className="text-sm font-bold text-cyan-400 font-mono">10%</span>
                   </div>
                   <div className="h-2 rounded-full bg-white/10 overflow-hidden">
-                    <div className="h-full w-[2%] bg-gradient-to-r from-cyan-600 to-cyan-400 rounded-full" />
+                    <div className="h-full w-[10%] bg-gradient-to-r from-cyan-600 to-cyan-400 rounded-full" />
                   </div>
                   <p className="text-xs text-slate-500 mt-1.5">Second coinbase output — sustains network development</p>
                 </div>
